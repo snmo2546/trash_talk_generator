@@ -1,0 +1,28 @@
+.card {
+  margin: 1px;
+}
+
+.avatar {
+  width: 100%;
+  height: 18rem;
+  background-size: cover;
+  background-position: center center; 
+}
+
+.engineer {
+  background-image: url('https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg'); 
+}
+
+.designer {
+   background-image: url('https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg'); 
+}
+
+.founder {
+  background-image: url('https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg');
+}
+
+.text-box {
+  margin-left: 20px;
+  min-height: 75px;  
+  min-width: 500px
+}
