@@ -22,8 +22,9 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', (req, res) => {
-  const trashTalk = generateTrashTalk(req.body)
-  res.render('index', { trashTalk: trashTalk })
+  const option = req.body
+  const trashTalk = generateTrashTalk(option)
+  res.render('index', { trashTalk: trashTalk, option: option })
 })
 
 // starts the express server and listening for connections
